@@ -3,6 +3,12 @@
     "description": "CRUDBooster Is CRUD Generator Based On Laravel Easy To Make An Advanced Backend",
     "type": "library",
     "license": "MIT",
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/saifulcoder/crudbooster-edited"
+        }
+    ],
     "keywords":[
         "laravel",
         "admin-panel",
@@ -25,7 +31,8 @@
         "doctrine/dbal": "^2.3",
         "maatwebsite/excel": "^3.1",
         "intervention/imagecache":"^2.3",
-        "laravel/framework": "^7.30|^8.34|^10"
+        "laravel/framework": "^7.30|^8.34|^10",
+         "saifulcoder/crudbooster-edited": "dev-master"
     },
     "autoload": {
         "psr-4": {
